@@ -21,7 +21,7 @@ function createAuthProvider(AuthContext: React.Context<IAuthContextProps>) {
             setInitialized(true);
           })
           .catch((err) => {
-            throw new Error(err);
+            throw new Error(err?.error);
           });
       };
       initialize();

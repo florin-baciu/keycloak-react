@@ -1,7 +1,7 @@
 {
-  "name": "keycloak-react-web",
-  "version": "0.1.19",
-  "author": "keycloak-react",
+  "name": "keycloak-react-18-web",
+  "version": "0.1.0",
+  "author": "bfg",
   "private": false,
   "main": "dist/index.js",
   "files": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keycloak-react/keycloak-react"
+    "url": "git+https://github.com/florin-baciu/keycloak-react"
   },
   "dependencies": {
     "keycloak-js": "^19.0.2"
@@ -54,8 +54,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.9.5"
   },
   "keywords": [
     "keycloak-react",
